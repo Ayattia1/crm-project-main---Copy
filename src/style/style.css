@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #34495e;
+  color: white;
+  padding: 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left .logo {
+  font-size: 1.8rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sidebar .MuiListItem-root {
+  padding: 15px;
+  color: white;
+}
+
+.sidebar .MuiListItem-root:hover {
+  background-color: #34495e;
+}
+
+/* Dashboard */
+.dashboard {
+  margin-left: 260px;
+  padding: 30px;
+}
+
+.dashboard-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.metric-card {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.metric-card .metric-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
